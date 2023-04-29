@@ -6,6 +6,13 @@
 .logo h1{
     font-size: 40px;
     font-family: 'Abril Fatface', cursive;
+    color: rgb(243, 236, 236);
+    text-shadow: 5px 5px 10px black;
+}
+
+.logo span{
+    color: rgb(243, 236, 236);
+    font-weight: 600
 }
     
 .head .icon{
@@ -15,7 +22,7 @@
 /* header */
 
 header{
-    background-color: #AFB09F;
+    background-color: rgba(175, 176, 159,0.3);
     margin: 0 30px;
 }
 
@@ -29,7 +36,7 @@ header li {
 
 header ul li a {
     color: #fff;
-    font-weight: 700;
+    font-weight: 900;
     transition: 0.5s;
 }
 
@@ -67,13 +74,17 @@ header ul li a:hover{
         display: none;
     }
 
+    header ul li {
+        margin-bottom: 20px;
+    }
+
     .toggle{
         display: block;
         background: none;
         color: #fff;
         font-size: 30px;
         position: absolute;
-        right: 0;
+        right: 30px;
         top: 20px;
     }
 

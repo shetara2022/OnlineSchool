@@ -27,7 +27,7 @@ const Header = () => {
 
                   {/* ___button that toggles between displaying an "X" icon and a "bars" icon when clicked___event listener sets the value of the click variable to its opposite boolean value */}
                   <button className='toggle' onClick={() => setClick(!click)}>
-                      {click ? <i className='fa-regular fa-xmark'></i> : <i className='fa-solid fa-bars'></i>}
+                      {click ? <i className='fa-solid fa-xmark'></i> : <i className='fa-solid fa-bars'></i>}
                   </button>
                   
               </nav>

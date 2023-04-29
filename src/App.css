@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Khula', sans-serif;
-  background-color: #e3d7c9;
+  background-color: #9f8a72;
 }
 
 .container{
@@ -25,7 +25,7 @@ body {
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
-  background-color: rgba(230, 225, 225, 0.5);
+  background-color: rgba(247, 234, 234, 0.5);
   color: #436369;
   transition: 0.5s;
 }
@@ -42,4 +42,28 @@ a{
 
 li {
   list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+button{
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #436369;
+  font-weight: 600;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(2, 56, 46, 0.5);
+}
+
+button:hover {
+  border: none;
+}
+
+.primary-btn {
+  background-color: #436369;
+  color: #fff;
 }
