@@ -1,0 +1,14 @@
+.head {
+    padding: 20px 0;
+    color: #000;
+}
+
+.logo h1{
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+    
+.head .icon{
+    margin-left: 10px;
+
+    }
