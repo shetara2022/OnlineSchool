@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: 'Khula', sans-serif;
-  background-color: #9f8a72;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3e6d6;
 }
 
 .container{
@@ -44,6 +44,10 @@ li {
   list-style-type: none;
 }
 
+.row {
+  width: 50%;
+}
+
 button {
   border: none;
 }
@@ -66,4 +70,59 @@ button:hover {
 .primary-btn {
   background-color: #436369;
   color: #fff;
+}
+
+#heading{
+  padding: 40px 0;
+  text-align: center;
+}
+
+#heading h3{
+  letter-spacing: 2px;
+  color:#33585F;
+}
+
+#heading h1{
+  font-size: 40px;
+  margin:20px 0;
+}
+
+p{
+  line-height: 20px;
+  font-size: 18px;
+}
+
+
+/* About section*/
+.back {
+  background-image: url("../public/images/sittinggirl.png");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  text-align: center;
+  top:0;
+  left:0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 70px;
+  color: #fff;
+}
+
+.back h1{
+  font-size: 100px;
+  font-weight: 400;
+  font-family: 'Ysabeau', sans-serif;
+
+}
+
+.back h2{
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.margin{
+  margin-top: 40%;
 }
